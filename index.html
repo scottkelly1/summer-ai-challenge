@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summer AI Challenge</title>
+    <meta
+      name="description"
+      content="Summer AI Challenge project videos and certificate path."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <button class="menu-button" type="button" aria-label="Open menu" data-open-menu>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="sidebar-backdrop" data-backdrop></div>
+
+      <aside class="sidebar" data-sidebar>
+        <button class="close-button" type="button" aria-label="Close menu" data-close-menu>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+
+        <div class="brand-panel">
+          <div class="brand-lockup" aria-label="Build With AI">
+            <div class="brand-mark">
+              <span>AI</span>
+            </div>
+            <div class="brand-text">
+              <span class="brand-word">Build</span>
+              <span class="brand-with">With AI</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="project-nav" aria-label="Real World Projects">
+          <p class="nav-eyebrow">Real World Projects</p>
+          <ul class="project-list">
+            <li>
+              <button class="project-button active" type="button" data-day="1">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+                <span>Voice Prompting @ Chimney Rock</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="2">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5M9 18h6M10 22h4" />
+                </svg>
+                <span>Creative Partner @ Kitty Hawk</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="3">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5M4 6h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
+                </svg>
+                <span>Vibe Coding @ Biltmore Estate</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="4">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+                </svg>
+                <span>Info to Presentation @ Merchant's Millpond</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="5">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+                </svg>
+                <span>Content Creation @ Linville Gorge</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="6">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 8V4H8M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM2 14h2M20 14h2M15 13v2M9 13v2" />
+                </svg>
+                <span>Voice Agent @ Pilot Mountain</span>
+              </button>
+            </li>
+            <li>
+              <button class="project-button" type="button" data-day="7">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16M4 6h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
+                </svg>
+                <span>Project Portfolio @ Cape Hatteras</span>
+              </button>
+            </li>
+          </ul>
+
+          <div class="certificate-cta">
+            <p>Finished the Projects?</p>
+            <a
+              href="https://forms.gle/7jKrd4ng6TLQ6yRi6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Certificate
+            </a>
+          </div>
+        </nav>
+      </aside>
+
+      <div class="content-wrap">
+        <main class="main-content">
+          <div class="title-block">
+            <h1>Summer AI Challenge</h1>
+          </div>
+
+          <section class="video-card" aria-label="Project video">
+            <iframe
+              id="project-video"
+              src="https://www.youtube.com/embed/6Nmy-vJszR4"
+              title="Voice Prompting @ Chimney Rock"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </section>
+
+          <section class="collaborators" aria-label="Collaborators">
+            <p>Powered By:</p>
+            <div class="startup-high-logo">
+              <a href="https://www.startuphigh.com/">
+                <img
+                  src="https://startuphigh.com/wp-content/uploads/2023/07/startup-high-logo-black.png"
+                  alt="Startup High"
+                />
+              </a>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
